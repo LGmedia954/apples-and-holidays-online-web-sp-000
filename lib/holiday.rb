@@ -42,9 +42,7 @@ def all_holidays_with_bbq(holiday_hash)
       holiday if supplies.include?("BBQ")
     end
     
-  
-  # return an array of holiday names (as symbols) where supply lists
-  # include the string "BBQ"
+  end.flatten.compact
 
 end
 
